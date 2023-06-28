@@ -1,0 +1,27 @@
+.eg1{
+    height: 150px;
+    width: 600px;
+    background-color: blue;
+    display: inline-block;
+}
+.eg2{
+    height: 150px;
+    width: auto;
+    background-color: greenyellow;
+}
+.eg3{
+    height: 450px;
+    width: auto;
+    background-color: red;
+    display: inline-block;
+}
+.ft{
+    font-size: 40px;
+    align-content: center;
+}
+.child{
+    height: 50px;
+    width: 100px;
+    background-color: pink;
+    align-items: center;
+}

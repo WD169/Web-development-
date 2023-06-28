@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Chinmay Webpage</title>
+    <script>
+        var id=101;
+        var  ab=EXTC;
+        function java1(){
+            var myName = "Chinmay"
+            document.getElementById('p1').innerHTML="Hello"+" "+myName;
+            java2();
+        }
+        function java2(){
+            var id="Welcome"
+            document.getElementById('p2').innerHTML="K.C. College of Engineering"+" "+ab;
+            // alert("Calling Function1")
+        }
+        function calc(){
+            var a=16;
+            a+=a;
+            var x=10;
+            var y=20;
+            // true or false condition
+            var gt = x>y ? x : y  
+            document.getElementById('s2').innerHTML="Greater"+"="+gt;
+            document.getElementById('s1').innerHTML="Sum"+"="+a;
+        }
+        function date(){
+            var date = new Date
+            var custom_date = new Date("16 september 2002")
+            var pre_date = new Date()
+            document.writeln("<h2>")
+            document.writeln(date)
+            document.writeln("</h2>")
+            document.writeln(custom_date)
+            // document.writeln(Date.toDateString())
+            // document.writeln(Date.toLocalstring())    
+        }
+        function show(){
+            var result = display();
+            console.log("Result = ",result)
+        }
+        function display(){
+            var x=parseInt(10);
+            var y=parseInt(15);
+            return x+y;
+        }
+        /*function Swap(){
+            var c=30;
+            var d=40;
+            c=temp;
+            c=d;
+            d=temp; 
+            document.getElementById('s3').innerHTML="Swap ="+"c = "+c+"d = "+d;
+        }*/
+    </script>
+    <style>
+        #h1{background-color: whitesmoke;}
+        #h2{ background-color: whitesmoke;
+        text-align: center;}
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden; 
+        }
+        li {
+          float: left;
+          text-align: center;
+          padding: 0;
+        }
+        li a {
+          display: block;
+          color: black;
+          text-align: center;
+          padding: 5px;
+          text-decoration: none; 
+        }
+        /* Change the link color to #111 (black) on hover */
+        li a:hover {background-color: gainsboro;}
+    </style>
+    <link rel="stylesheet" href="JavaScript.css">    
+</head>
+<body class="back">
+      <!-- Moving the text -->
+      <div id="h1"><h1 id="h2">Chinmay's Webpage</h1>
+        <marquee direction="right" delay="200"><h2>Demo webpage created for practice</h2></marquee></div>
+      <hr width="100%" size="10" color="red">
+      <div class="d0">
+        <h3>
+         <ul>
+            <li><a href="JavaScript.html">Home</a></li>
+            <li><a href="Images.html" target="_blank">Images</a></li>
+            <li><a href="Video.html" target="_blank">Videos</a></li>
+            <li><a href="form.html" target="_blank">Register</a></li>
+            <li><a href="loginform.html">Login</a></li>
+         </ul>
+        <!-- <div class="d1"><a href="JavaScript.html">Home</a></div>
+        <div class="d2"><a href="Images.html" target="_blank">Images</a></div> 
+        <div class="d3"><a href="Videos.html" target="_blank">Videos</a></div>       
+        <div class="d4"><a href="form.html" target="_blank">Register</a></div> 
+        <div class="d5"><a href="loginform.html">Login</a></div>              -->
+        </h3>
+      </div>
+    <h1>Java Script Eg.1</h1>
+    <br><br>
+    <button onclick="java1()">Click here</button>
+     <p id="p1"></p>
+     <p id="p2"></p>
+     <br>
+     <button onclick="java2()">Click here</button>
+     <button onclick="calc()">Click here</button>
+     <p id="s1"></p>
+     <p id="s2"></p>
+     <button onclick="Swap()">Click here</button>
+     <p id="s3"></p>
+
+     <!-- Date -->
+     //<h2 onload="">Info</h2> 
+
+    <!--onclick..... onmouseover....  -->
+      <h2 class="omo" onmouseover="date()">Date</h2>
+     
+      <!-- output on Console  -->
+      <button onclick="show()">Result</button>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>form</title>
+     <link rel="stylesheet" href="form.css">
+</head>
+<body class="d2">
+    <div class="d1">
+        <form class="d3">
+            <!-- Linking to another tab , href is hyper link reference, a is anchor tag,
+        target = blank means site opens in new tab-->
+        <!-- Form creates the -->
+        
+            <!-- Required tag helps for making the input necessory -->
+            <h1>Demo Registration Form</h1>
+            <input type="text" pattern="[A-Za-z]{1,32}" placeholder="Enter your Name" maxlength="10" minlength="3" required> 
+            <br><br>
+            <input type="password" placeholder="Enter your Password">
+            <br><br>
+            <input type="number" placeholder="Enter your Age" max="25" min="10">
+            <br><br>
+            <input type="email" placeholder="Enter your Email ID" maxlength="10" minlength="3" required> 
+            <br><br>
+            Enter your Birthdate
+            <input type="date">
+            <br><br>
+            <input type="checkbox">Checkbox
+            <br><br>
+            <input type="radio">Radio
+            <br><br>
+            Enter your Gender:
+            Male 
+            <input type="radio" name="gender">
+            Female 
+            <input type="radio" name="gender">
+            <br><br>
+            <select>
+                <option>Select state</option>
+                <option>Andhra Pradesh(Amaravati)</option>
+                <option>Arunachal Pradesh(Itanagar)</option>
+                <option>Assam(Dispur)</option>
+                <option>Bihar(Patna)</option>
+                <option>Chhattisgarh(Raipur)</option>
+                <option>Goa(Panaji)</option>
+                <option>Gujarat(Gandhinagar)</option>
+                <option>Maharashtra(Mumbai)</option>
+            </select>
+            <br><br>
+            <textarea placeholder="Enter address" rows="10" cols="20"></textarea>
+            <br><br>
+            Choose the colour:
+            <input type="color">
+            <br><br>
+            <input type="file" placeholder="Choose files">
+            <br><br>
+            <button type="submit">Login </button>
+            <button type="reset">Clear Form </button>
+            <a href="JavaScript.html" target="_blank">
+            <button type="button">Home</button>
+            </a>
+        </form>
+    </div>   
+</body>
+</html>

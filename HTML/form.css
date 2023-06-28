@@ -1,0 +1,21 @@
+.d1{
+    align-content:space-around;
+    align-items: center;
+    align-content: center;
+    display: inline-block;
+    margin: 10px;
+    height: fit-content;
+    width: 50%;
+    border: 5px solid aqua;
+}
+.d2{
+    align-content: center;
+    align-items: center;
+    margin-inline: 250px;
+}
+.d3{
+    margin: 50px;
+    align-items: center;
+    display: inline-block;
+    margin-inline: 200px;
+}
